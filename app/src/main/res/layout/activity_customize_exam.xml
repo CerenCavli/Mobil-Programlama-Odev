@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".activities.CustomizeExamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/teal_700"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Time_Of_Exam" />
+
+            <SeekBar
+                android:id="@+id/customizeExamTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="120"
+                android:min="30"
+                android:progress="30" />
+
+            <TextView
+                android:id="@+id/customizeExamTimeText"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Difficult_Level" />
+
+            <SeekBar
+                android:id="@+id/customizeExamDiffuculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="5"
+                android:min="2"/>
+
+            <TextView
+                android:id="@+id/customizeExamDiffucultyText"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="@string/Question_Point" />
+
+            <SeekBar
+                android:id="@+id/customizeExamPointPerQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="25"
+                android:min="1"
+                android:progress="1" />
+
+            <TextView
+                android:id="@+id/customizeExamPointPerQuestionText"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/customizeExamSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:text="@string/button_save"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

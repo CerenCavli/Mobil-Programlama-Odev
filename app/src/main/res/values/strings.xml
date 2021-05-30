@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HomeWorkProject</string>
+
+    <string name="txt_login">Giriş</string>
+    <string name="txt_register">Kaydol</string>
+    <string name="button_save">Kaydet</string>
+    <string name="E_mail">E-posta</string>
+    <string name="Password">Şifre</string>
+    <string name="First_Name">İsim</string>
+    <string name="Last_Name">Soyisim</string>
+    <string name="PhoneNumber">Telefon Numarası</string>
+    <string name="PasswordCheck">Tekrar Şifre</string>
+    <string name="Sign_up">Kaydet</string>
+    <string name="Answer">Cevap</string>
+    <string name="Time_Of_Exam">Sınav Süresi</string>
+    <string name="Difficult_Level">Zorluk Seviyesi</string>
+    <string name="Question_Point">Soru Başına Puan</string>
+    <string name="Question">Soru</string>
+    <string name="Add">Ekle</string>
+    <string name="Question_Add">Soru Ekle</string>
+    <string name="Show_Question">Soruları Göster</string>
+    <string name="Prepare_Exam">Sınav Hazırla</string>
+    <string name="Customize_Exam">Sınavı Özelleştir</string>
+
+
+
+
+
+
+</resources>
